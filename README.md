@@ -32,7 +32,7 @@ export default function Ralvarezdev() {
             
             <div className="academic-bg">
                 <div className="academic-bg__in-progress">
-                    <p className="degree">Computer Science at the University Rafael Urdaneta</p>
+                    <p className="degree">Computer Science at the Rafael Urdaneta University</p>
                 </div>
             </div>
                 
