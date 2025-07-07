@@ -25,7 +25,7 @@ export default function Ralvarezdev() {
                     <ProgrammingLanguage key={index}>{skill}</ProgrammingLanguage>
                 ))}
             
-                {['React'].map((framework, index) => (
+                {['React', 'Angular'].map((framework, index) => (
                     <Framework key={index}>{framework}</Framework>
                 ))}
             </div>
@@ -39,6 +39,7 @@ export default function Ralvarezdev() {
             
             <div className="social-media">
                 <a href="https://github.com/ralvarezdev">GitHub</a>
+                <a href="https://www.linkedin.com/in/ralvarezdev/">LinkedIn</a>
                 <a href="https://instagram.com/ralvarezdev">Instagram</a>
                 <a href="https://leetcode.com/u/ralvarezdev">Leetcode</a>
             </div>
