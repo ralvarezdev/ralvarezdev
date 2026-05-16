@@ -37,7 +37,8 @@ type Profile struct {
 var Ralvarezdev = Profile{
 	Name:  "Ramón Álvarez",
 	Email: "inquiries@ralvarez.dev",
-	Bio:   "Backend engineer with a hands-on approach — from gRPC services and AI pipelines to embedded systems on Arduino and Raspberry Pi. I build things that work in the real world.",
+	Bio: `Backend engineer with a hands-on approach — from gRPC services and AI pipelines
+to embedded systems on Arduino and Raspberry Pi. I build things that work in the real world.`,
 	Roles: []string{"Software Engineer", "Backend Engineer"},
 
 	Education: []Degree{
